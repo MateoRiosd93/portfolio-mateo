@@ -1,0 +1,23 @@
+.container-navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.container-logo{
+    
+}
+
+.logo{
+
+}
+
+.cv{
+    font-family: var(--font_family);
+    font-size  : var(--title_size );
+    font-weight: var(--text_weight);
+
+    color: white;
+}

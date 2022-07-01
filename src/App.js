@@ -1,11 +1,21 @@
-function App() {
+// Components
+import Navbar from "./components/navbar/Navbar";
+import Profile from "./components/profile/Profile";
+import Social from "./components/social/Social";
+
+// Styles
+import "./app.css";
+
+const App = () => {
+  const darkMode = true;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Maria Te amo</p>
-      </header>
+    <div className={`${darkMode ? "dark-mode" : "white-mode"}`}>
+      <Navbar></Navbar>
+      <Profile></Profile>
+      <Social></Social>
     </div>
   );
-}
+};
 
 export default App;
