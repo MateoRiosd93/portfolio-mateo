@@ -1,5 +1,8 @@
 // Components
-import Menu from "../menu/Menu";
+import MenuHamburger from "../modules/menu/Menu";
+
+// Assets
+import logo from "../../assets/curriculum-50px.png";
 
 // Styles
 import "./navbar.css";
@@ -8,10 +11,10 @@ const Navbar = () => {
   return (
     <div className="container-navbar">
       <div className="container-logo">
-        <img className="logo" src="" alt="" />
         <span className="cv">CV</span>
+        <img className="logo" src={logo} alt="logo cv" />
       </div>
-      <Menu></Menu>
+      <MenuHamburger></MenuHamburger>
     </div>
   );
 };
