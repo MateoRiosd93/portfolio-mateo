@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import MenuHamburger from "../modules/menu/Menu";
 
 // Assets
-import logo from "../../assets/curriculum-50px.png";
+import logo from "../../assets/app-logo/curriculum-50px.png";
 
 // Styles
 import "./navbar.css";

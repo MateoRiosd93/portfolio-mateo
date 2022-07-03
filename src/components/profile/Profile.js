@@ -1,5 +1,5 @@
 // Asset
-import picture from "../../assets/profile-picture.png";
+import picture from "../../assets/profile-image/profile-picture.png";
 
 // Style
 import "./profile.css";
