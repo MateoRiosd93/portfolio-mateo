@@ -1,5 +1,5 @@
-import Profile from "../../profile/Profile";
-import Social from "../../social/Social";
+import Profile from "../../components/profile/Profile";
+import Social from "../../components/social/Social";
 
 const Home = () => {
   return (

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 // Components
-import MenuHamburger from "../modules/menu/Menu";
+import MenuHamburger from "../../components/menu/Menu";
 
 // Assets
 import logo from "../../assets/app-logo/curriculum-50px.png";
