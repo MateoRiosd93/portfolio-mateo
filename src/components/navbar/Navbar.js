@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 // Components
 import MenuHamburger from "../modules/menu/Menu";
 
@@ -10,10 +12,10 @@ import "./navbar.css";
 const Navbar = () => {
   return (
     <div className="container-navbar">
-      <div className="container-logo">
+      <Link className="container-logo" to="/home">
         <span className="cv">CV</span>
         <img className="logo" src={logo} alt="logo cv" />
-      </div>
+      </Link>
       <MenuHamburger></MenuHamburger>
     </div>
   );

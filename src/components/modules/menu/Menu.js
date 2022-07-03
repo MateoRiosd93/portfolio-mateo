@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 // Styles
 import "./menu.css";
@@ -16,43 +17,43 @@ const MenuHamburger = () => {
         <span></span>
         <span></span>
       </div>
-      <div className={`nav_menu ${isActive ? "active" : ""}`}>
-        <a
+      <nav className={`nav_menu ${isActive ? "active" : ""}`}>
+        <Link
           className="item-nav"
-          href="http://localhost:3000/"
+          to="/home"
           onClick={() => setIsActive(false)}
         >
           HOME
-        </a>
-        <a
+        </Link>
+        <Link
           className="item-nav"
-          href="http://localhost:3000/"
+          to="/about"
           onClick={() => setIsActive(false)}
         >
           ABOUT
-        </a>
-        <a
+        </Link>
+        <Link
           className="item-nav"
-          href="http://localhost:3000/"
+          to="/carrer"
           onClick={() => setIsActive(false)}
         >
           CARRER
-        </a>
-        <a
+        </Link>
+        <Link
           className="item-nav"
-          href="http://localhost:3000/"
+          to="/skills"
           onClick={() => setIsActive(false)}
         >
           SKILLS
-        </a>
-        <a
+        </Link>
+        <Link
           className="item-nav"
-          href="http://localhost:3000/"
+          to="/contact"
           onClick={() => setIsActive(false)}
         >
           CONTACT
-        </a>
-      </div>
+        </Link>
+      </nav>
     </div>
   );
 };
