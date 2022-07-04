@@ -1,11 +1,18 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 // Styles
 import "./menu.css";
 
-const MenuHamburger = () => {
+const MenuHamburger = ({ isClosed, setCloseMenu }) => {
   const [isActive, setIsActive] = useState(false);
+
+  useEffect(() => {
+    if (isClosed) {
+      setIsActive(false);
+      setCloseMenu(false);
+    }
+  }, [isClosed, setCloseMenu]);
 
   return (
     <div>

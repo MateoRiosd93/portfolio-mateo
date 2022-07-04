@@ -1,0 +1,8 @@
+.copyright{
+    font-family     : var(--font_family);
+    font-size       : var(--footet_size);
+    font-weight     : var(--footer_weight);
+    text-align      : end;
+    color           : white;
+    padding-bottom  : 5px;
+}

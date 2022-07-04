@@ -4,7 +4,6 @@
     height          : 2px;
     border-radius   : 9999px;
     background-color: rgba(255, 255, 255, .8);
-    z-index: 10000;
 }
 
 .nav-menu > span:not(:last-child){
@@ -54,10 +53,12 @@
     flex-direction  : column;
     clip-path       : circle(0% at center);
     transition      : clip-path 1s ease-in-out;
+    z-index: 10000;
 }
 
 .nav_menu.active{
     clip-path: circle(100% at center);
+    z-index: 10000;
 }
 
 .item-nav{

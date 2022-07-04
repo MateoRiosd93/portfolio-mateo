@@ -1,0 +1,109 @@
+.container-about{
+    width           : 100%;
+    min-height      : 788px;
+    display         : flex;
+    justify-content : space-between;
+    flex-direction  : column;
+    align-items     : center;
+}
+
+.container-title-about{
+    width           : 100%;
+    display         : flex;
+    flex-direction  : column;
+    align-items     : center;
+    margin-top      : 60px;
+}
+
+.title-about{
+    font-family     : var(--font_family);
+    font-size       : var(--profesion_size);
+    font-weight     : var(--profesion_weight);
+    color           : white;
+    position        : relative;
+    display         : flex;
+    flex-direction  : column;
+    align-items     : center;
+    margin          : 0;
+    transition      : all 4s ease-in-out;
+    animation       : fadein 4s;
+}
+
+.line-decoration-about{
+    width           : 125px;
+    height          : 12px;
+    position        : absolute;
+    opacity         : 0.4;
+    bottom          : 3px;
+    background-color: #0093E9;
+    transition      : all 4s ease-in-out;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    animation       : fadeinline 4s;
+}
+
+.phrase-about{
+    font-family : var(--font_family);
+    font-size   : var(--phrase_size);
+    font-weight : var(--phrase_weight);
+    font-style  : italic;
+    text-align  : center;
+    color       : white;
+    padding     : 10px 15px 5px 15px;
+}
+
+.author-phrase{
+    font-family : var(--font_family);
+    font-size   : 13px;
+    font-weight : bold;
+    font-style  : italic;
+    color       : white;
+}
+
+.container-text-about{
+    width           : 100%;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : center;
+    align-items     : center;
+    padding         : 15px;
+}
+
+.text-about{
+    font-family     : var(--font_family);
+    font-size       : var(--text_size);
+    font-weight     : 300;
+    text-align      : justify;
+    letter-spacing  : -0.8px;
+    color           : white;
+    margin          : 10px 0px; 
+}
+
+.container-button{
+    width           : 100%;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+}
+
+.button-download-cv{
+    width           : 220px;
+    height          : 60px;
+    background-color: rgba(255,255,255,0.9);
+    box-shadow      : 0px 4px 30px 0px rgba(255,255,255,0.1);
+    font-family     : var(--font_family);
+    font-size       : var(--text_size);
+    font-weight     : 500;
+    letter-spacing  : 0.5px;
+    border          : none;
+    text-decoration : none;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes fadeinline {
+    from { opacity: 0; }
+    to   { opacity: 0.4; }
+}
