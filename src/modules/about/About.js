@@ -1,12 +1,17 @@
+import { saveAs } from "file-saver";
+
 // Components
 import Copyright from "../../components/copyright/Copyright";
+
+// file CV
+import MateoCV from "../../assets/curriculum/MateoCV.pdf";
 
 // Styles
 import "./about.css";
 
 const About = () => {
   const downloadPDF = () => {
-    console.log("Descargar pdf CV");
+    saveAs(MateoCV, "MateoCV.pdf");
   };
 
   return (

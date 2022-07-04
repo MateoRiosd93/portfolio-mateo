@@ -1,0 +1,87 @@
+.container-skills{
+    width           : 100%;
+    min-height      : 788px;
+    display         : flex;
+    justify-content : space-between;
+    flex-direction  : column;
+    align-items     : center;
+    transition      : all 1s ease;
+}
+
+.container-title-skills{
+    width           : 100%;
+    display         : flex;
+    flex-direction  : column;
+    align-items     : center;
+    margin-top      : 60px;
+}
+
+.title-skills{
+    font-family     : var(--font_family);
+    font-size       : var(--profesion_size);
+    font-weight     : var(--profesion_weight);
+    color           : white;
+    position        : relative;
+    display         : flex;
+    flex-direction  : column;
+    align-items     : center;
+    margin          : 0;
+    transition      : all 4s ease-in-out;
+    animation       : fadein 4s;
+}
+
+.line-decoration-skills{
+    width           : 125px;
+    height          : 12px;
+    position        : absolute;
+    opacity         : 0.4;
+    bottom          : 3px;
+    background-color: #0093E9;
+    transition      : all 4s ease-in-out;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    animation       : fadeinline 4s;
+}
+
+.phrase-skills{
+    font-family : var(--font_family);
+    font-size   : var(--phrase_size);
+    font-weight : var(--phrase_weight);
+    font-style  : italic;
+    text-align  : center;
+    color       : white;
+    padding     : 10px 15px 5px 15px;
+}
+
+.container-cards{
+    width           : 100%;
+    display         : flex;
+    flex-wrap       : wrap;
+    justify-content : center;
+    align-items     : center;
+    padding         : 5px;
+}
+
+.card{
+    width           : 109px;
+    height          : 109px;
+    margin          : 5px;
+    padding         : 5px;
+    background-color: rgba(255, 255, 255, .2);
+    box-shadow      : 0px 4px 10px 0px rgba(0,0,0,0.1);
+    border-radius   : 5px;
+    display         : flex;
+    justify-content : center;
+    align-items     : center ;
+    flex-direction  : column;
+}
+
+.name-card{
+    font-family: var(--font_family);
+    font-size  : 18px;
+    font-weight: var(--title_weight);
+}
+
+.image-card{
+    width   : 60px;
+    height  : 60px;
+}

@@ -1,0 +1,82 @@
+.container-carrer{
+    width           : 100%;
+    min-height      : 788px;
+    display         : flex;
+    justify-content : space-between;
+    flex-direction  : column;
+    align-items     : center;
+    transition      : all 1s ease;
+}
+
+.container-title-carrer{
+    width           : 100%;
+    display         : flex;
+    flex-direction  : column;
+    align-items     : center;
+    margin-top      : 60px;
+}
+
+.title-carrer{
+    font-family     : var(--font_family);
+    font-size       : var(--profesion_size);
+    font-weight     : var(--profesion_weight);
+    color           : white;
+    position        : relative;
+    display         : flex;
+    flex-direction  : column;
+    align-items     : center;
+    margin          : 0;
+    transition      : all 4s ease-in-out;
+    animation       : fadein 4s;
+}
+
+.line-decoration-carrer{
+    width           : 125px;
+    height          : 12px;
+    position        : absolute;
+    opacity         : 0.4;
+    bottom          : 3px;
+    background-color: #0093E9;
+    transition      : all 4s ease-in-out;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    animation       : fadeinline 4s;
+}
+
+.phrase-carrer{
+    font-family : var(--font_family);
+    font-size   : var(--phrase_size);
+    font-weight : var(--phrase_weight);
+    font-style  : italic;
+    text-align  : center;
+    color       : white;
+    padding     : 10px 15px 5px 15px;
+}
+
+.container-text-carrer{
+    width           : 100%;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : center;
+    align-items     : center;
+    padding         : 15px;
+}
+
+.text-carrer{
+    font-family     : var(--font_family);
+    font-size       : var(--text_size);
+    font-weight     : 300;
+    text-align      : justify;
+    letter-spacing  : -0.8px;
+    color           : white;
+    margin          : 10px 0px; 
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes fadeinline {
+    from { opacity: 0; }
+    to   { opacity: 0.4; }
+}
