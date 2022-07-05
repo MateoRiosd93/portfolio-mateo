@@ -17,6 +17,16 @@
 .nav-menu.active{
     transition-delay: 0.8s;
     transform       : rotate(45deg);
+    cursor          : pointer;
+}
+
+.nav-menu{
+    cursor: pointer;
+}
+
+.nav_menu.active{
+    clip-path   : circle(100% at center);
+    z-index     : 10000;
 }
 
 .nav-menu.active > span:nth-child(2){
@@ -41,11 +51,9 @@
     top             : 55px;
     bottom          : 0;
     left            : 0;
-
     background      : #232526;
     background      : -webkit-linear-gradient(to right, #232526, #414345);
     background      : linear-gradient(to right, #232526, #414345);
-
     width           : 100%;
     display         : flex;
     justify-content : space-around;
@@ -53,20 +61,14 @@
     flex-direction  : column;
     clip-path       : circle(0% at center);
     transition      : clip-path 1s ease-in-out;
-    z-index: 10000;
-}
-
-.nav_menu.active{
-    clip-path: circle(100% at center);
-    z-index: 10000;
+    z-index         : 10000;
 }
 
 .item-nav{
-    font-family: var(--font_family);
-    font-size: var(--title_size);
-    font-weight: var(--title_weight);
-
-    text-decoration: none;
-    color: rgba(255, 255, 255, .8);
+    font-family     : var(--font_family);
+    font-size       : var(--title_size);
+    font-weight     : var(--title_weight);
+    text-decoration : none;
+    color           : rgba(255, 255, 255, .8);
 }
 
