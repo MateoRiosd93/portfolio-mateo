@@ -11,7 +11,7 @@ const Skills = () => {
   const skills = data.map(({ name, imageURL }, index) => (
     <div className="card" key={index}>
       <span className="name-card">{name}</span>
-      <img className="image-card" src={imageURL} alt={name} />
+      {imageURL}
     </div>
   ));
 

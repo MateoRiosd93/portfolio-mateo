@@ -13,7 +13,7 @@
     display         : flex;
     flex-direction  : column;
     align-items     : center;
-    margin-top      : 60px;
+    margin-top      : 30px;
 }
 
 .title-skills{
@@ -62,22 +62,23 @@
 }
 
 .card{
-    width           : 109px;
-    height          : 109px;
+    width           : 100px;
+    height          : 92px;
     margin          : 5px;
     padding         : 5px;
-    background-color: rgba(255, 255, 255, .2);
+    background-color: rgba(255, 255, 255, .05);
     box-shadow      : 0px 4px 10px 0px rgba(0,0,0,0.1);
-    border-radius   : 5px;
+    border-radius   : 0px 0px 3px 3px;
+    border-top: 3px solid rgba(128, 208, 199, 0.7);
     display         : flex;
-    justify-content : center;
+    justify-content : space-around;
     align-items     : center ;
     flex-direction  : column;
 }
 
 .name-card{
     font-family: var(--font_family);
-    font-size  : 18px;
+    font-size  : 15.5px;
     font-weight: var(--title_weight);
 }
 
