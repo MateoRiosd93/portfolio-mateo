@@ -10,9 +10,7 @@ import MateoCV from "../../assets/curriculum/MateoCV.pdf";
 import "./about.css";
 
 const About = () => {
-  const downloadPDF = () => {
-    saveAs(MateoCV, "MateoCV.pdf");
-  };
+  const downloadPDF = () => saveAs(MateoCV, "MateoCV.pdf");
 
   return (
     <div className="container-about">
@@ -39,8 +37,8 @@ const About = () => {
           accusantium ut exercitationem eveniet.
         </p>
       </div>
-      <div className="container-button">
-        <button className="button-download-cv" onClick={downloadPDF}>
+      <div className="container-btn-cv">
+        <button className="btn-download-cv" onClick={downloadPDF}>
           Descargar CV
         </button>
       </div>

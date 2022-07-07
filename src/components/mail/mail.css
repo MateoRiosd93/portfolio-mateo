@@ -1,0 +1,90 @@
+.container-form-email{
+    width           : 350px;
+    height          : 410px;
+    display         : flex;
+    justify-content : center;
+    flex-direction  : column;
+    align-items     : stretch;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius   : 2px;
+    padding         : 10px;
+}
+
+.container-subject{
+    width           : 100%;
+    display         : flex;
+    justify-content : center;
+    flex-direction  : column;
+    align-items     : stretch;
+}
+
+.subject{
+    font-family : var(--font_family);
+    font-size   : var(--text_size);
+    font-weight : var(--text_weight) ;
+    color       : rgba(255, 255, 255, 0.5);
+    padding     : 10px 5px 0px 5px;
+}
+
+.input-subject{
+    margin          : 5px;
+    padding         : 8px;
+    font-family     : var(--font_family);
+    background-color: rgba(255, 255, 255, 0.9 );
+    border          : none;
+    border-radius   : 2px;
+}
+
+.input-subject:focus{
+    outline: none;
+    border: none;
+}
+
+.container-message{
+    width           : 100%;
+    display         : flex;
+    justify-content : center;
+    flex-direction  : column;
+    align-items     : stretch;
+}
+
+.message{
+    font-family : var(--font_family);
+    font-size   : var(--text_size);
+    font-weight : var(--text_weight) ;
+    color       : rgba(255, 255, 255, 0.5);
+    padding     : 10px 5px 0px 5px;
+}
+
+.text-message{
+    margin          : 5px;
+    padding         : 8px;
+    font-family     : var(--font_family);
+    background-color: rgba(255, 255, 255, 0.9 );
+    border          : none;
+    border-radius   : 2px;
+}
+
+.text-message:focus{
+    outline         : none;
+    border-bottom   : none;
+}
+
+.container-btn-send{
+    width           : 100%;
+    height          : 80px;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+}
+
+.btn-send-mail{
+    background-color: transparent;
+    border          : 1px solid rgba(255, 255, 255, 0.5);
+    color           : rgba(255, 255, 255, 0.5);
+    font-family     : var(--font_family);
+    font-size       : var(--text_size);
+    height          : 50px;
+    text-transform  : uppercase;
+    width           : 120px;
+}

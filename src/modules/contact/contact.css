@@ -51,3 +51,20 @@
     color       : white;
     padding     : 10px 15px 5px 15px;
 }
+
+.container-whatsapp-linkedin{
+    width           : 140px;
+    padding         : 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius   : 2px;
+    display         : flex;
+    justify-content : space-around;
+    align-items     : center;
+}
+
+.social-contact{
+    display           : flex;
+    align-items       : center;
+    justify-content   : center;
+    border-radius     : 10px;
+}  

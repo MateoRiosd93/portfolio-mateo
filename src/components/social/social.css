@@ -8,11 +8,11 @@
 
 .social {
   margin            : 5px;
-  width             : 50px;
-  height            : 50px;
+  width             : 43px;
+  height            : 43px;
   background-color  : rgba(255, 255, 255, .2);
   display           : flex;
   align-items       : center;
   justify-content   : center;
-  border-radius     : 15px;
+  border-radius     : 10px;
 }
