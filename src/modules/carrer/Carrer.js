@@ -1,6 +1,3 @@
-// Components
-import Copyright from "../../components/copyright/Copyright";
-
 // Styles
 import "./carrer.css";
 
@@ -27,7 +24,6 @@ const Carrer = () => {
           accusantium ut exercitationem eveniet.
         </p>
       </div>
-      <Copyright />
     </div>
   );
 };

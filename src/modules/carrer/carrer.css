@@ -1,11 +1,12 @@
 .container-carrer{
     width           : 100%;
-    min-height      : 788px;
+    min-height      : 754px;
     display         : flex;
     justify-content : space-between;
     flex-direction  : column;
     align-items     : center;
     transition      : all 1s ease;
+    padding-bottom  : 140px;
 }
 
 .container-title-carrer{

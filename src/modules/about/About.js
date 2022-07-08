@@ -1,8 +1,5 @@
 import { saveAs } from "file-saver";
 
-// Components
-import Copyright from "../../components/copyright/Copyright";
-
 // file CV
 import MateoCV from "../../assets/curriculum/MateoCV.pdf";
 
@@ -23,26 +20,27 @@ const About = () => {
         </span>
         <span className="author-phrase">Albert Einstein</span>
       </div>
-      <div className="container-text-about">
-        <p className="text-about">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ad
-          fugit quos corporis animi soluta neque nam voluptatum quibusdam, eaque
-          voluptas nemo similique temporibus quaerat assumenda iusto a quam
-          ratione.
-        </p>
-        <p className="text-about">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-          magnam voluptas nisi libero, rerum fugit dolorum. Suscipit deserunt,
-          quidem temporibus molestias neque mollitia, officiis repellendus sint
-          accusantium ut exercitationem eveniet.
-        </p>
+      <div className="container-text-btn">
+        <div className="container-text-about">
+          <p className="text-about">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ad
+            fugit quos corporis animi soluta neque nam voluptatum quibusdam,
+            eaque voluptas nemo similique temporibus quaerat assumenda iusto a
+            quam ratione.
+          </p>
+          <p className="text-about">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+            magnam voluptas nisi libero, rerum fugit dolorum. Suscipit deserunt,
+            quidem temporibus molestias neque mollitia, officiis repellendus
+            sint accusantium ut exercitationem eveniet.
+          </p>
+        </div>
+        <div className="container-btn-cv">
+          <button className="btn-download-cv" onClick={downloadPDF}>
+            Descargar CV
+          </button>
+        </div>
       </div>
-      <div className="container-btn-cv">
-        <button className="btn-download-cv" onClick={downloadPDF}>
-          Descargar CV
-        </button>
-      </div>
-      <Copyright />
     </div>
   );
 };

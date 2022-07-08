@@ -1,8 +1,5 @@
 import { Link } from "react-router-dom";
 
-// Components
-import Copyright from "../../components/copyright/Copyright";
-
 // Assets
 import noFound from "../../assets/no-found/not-found.png";
 
@@ -28,7 +25,6 @@ const NoFound = () => {
           Regresar al inicio
         </Link>
       </div>
-      <Copyright />
     </div>
   );
 };

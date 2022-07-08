@@ -1,6 +1,3 @@
-// Components
-import Copyright from "../../components/copyright/Copyright";
-
 // Data - Skills Cards
 import { SKILLS as data } from "../../data/skills-data";
 
@@ -24,7 +21,6 @@ const Skills = () => {
         <span className="phrase-skills">Experiencia trabajando con.</span>
       </div>
       <div className="container-cards">{skills}</div>
-      <Copyright />
     </div>
   );
 };

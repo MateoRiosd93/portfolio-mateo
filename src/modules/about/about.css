@@ -1,11 +1,12 @@
 .container-about{
     width           : 100%;
-    min-height      : 788px;
+    min-height      : 754px;
     display         : flex;
     justify-content : space-between;
     flex-direction  : column;
     align-items     : center;
     transition      : all 1s ease;
+    padding-bottom  : 70px;
 }
 
 .container-title-about{
@@ -127,4 +128,13 @@
 @keyframes fadeinline {
     from { opacity: 0; }
     to   { opacity: 0.4; }
+}
+
+@media (min-width:1024px){
+    .container-about{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
 }

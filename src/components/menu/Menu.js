@@ -15,7 +15,7 @@ const MenuHamburger = ({ isClosed, setCloseMenu }) => {
   }, [isClosed, setCloseMenu]);
 
   return (
-    <div>
+    <div className="container-nav">
       <div
         className={`nav-menu ${isActive ? "active" : ""}`}
         onClick={() => setIsActive(!isActive)}
@@ -24,7 +24,7 @@ const MenuHamburger = ({ isClosed, setCloseMenu }) => {
         <span></span>
         <span></span>
       </div>
-      <nav className={`nav_menu ${isActive ? "active" : ""}`}>
+      <nav className={`nav-menu-modules ${isActive ? "active" : ""}`}>
         <Link
           className="item-nav"
           to="/home"

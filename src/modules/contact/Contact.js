@@ -1,5 +1,4 @@
 // Components
-import Copyright from "../../components/copyright/Copyright";
 import Mail from "../../components/mail/Mail";
 
 // Styles
@@ -85,7 +84,6 @@ const Contact = () => {
         </div>
       </div>
       <Mail />
-      <Copyright />
     </div>
   );
 };
