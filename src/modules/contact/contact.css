@@ -69,3 +69,35 @@
     justify-content   : center;
     border-radius     : 10px;
 }  
+
+@media (min-width:1024px){
+
+    .container-contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-title-contact{
+        display         : flex;
+        flex-direction  : column;
+        align-items     : flex-end;
+        padding-right   : 100px;
+    }
+
+    .title-contact{
+        font-size: 60px;
+    }
+
+    .line-decoration-contact{
+        width       : 300px;
+        right       : -180px;
+        transform   : rotate(90deg);
+        animation   : none;
+    }
+
+    .phrase-contact{
+        padding: 5px 0px;
+    }
+}

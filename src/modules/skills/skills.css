@@ -88,3 +88,67 @@
     width   : 60px;
     height  : 60px;
 }
+
+@media (min-width:1024px){
+
+    .container-skills{
+        display         : flex;
+        flex-direction  : row;
+        justify-content : center;
+        align-items     : center;
+    }
+
+    .container-title-skills{
+        width           : 32%;
+        display         : flex;
+        flex-direction  : column;
+        align-items     : center;
+        margin          : 0;
+        padding-bottom  : 30px;
+        padding-left    : 140px;
+    }
+
+    .title-skills{
+        font-size: 60px;
+    }
+
+    .line-decoration-skills{
+        width       : 400px;
+        right       : -310px;
+        transform   : rotate(90deg);
+        animation   : none;
+    }
+
+    .phrase-skills{
+        padding: 5px 0px;
+    }
+
+    .container-cards{
+        width           : 68%;
+        display         : flex;
+        flex-wrap       : wrap;
+        justify-content : center;
+        align-items     : center;
+    }
+
+    .card{
+        width           : 180px;
+        height          : 100px;
+        margin          : 10px;
+        padding         : 10px;
+        background-color: rgba(255, 255, 255, .05);
+        box-shadow      : 0px 4px 10px 0px rgba(0,0,0,0.1);
+        border-radius   : 0px 0px 3px 3px;
+        border-top      : 3px solid rgba(128, 208, 199, 0.7);
+        display         : flex;
+        justify-content : space-around;
+        align-items     : center ;
+        flex-direction  : column;
+        transition      : all .5s ease-in-out; 
+    }
+
+    .card:hover{
+        box-shadow      : 0px 4px 10px 0px rgba(0,0,0,0.9);
+    }
+
+}

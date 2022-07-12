@@ -17,13 +17,15 @@ const NoFound = () => {
           Lo sentimos, la página que buscas no existe.
         </span>
       </div>
-      <div className="container-img-no-found">
-        <img className="no-found-img" src={noFound} alt="Not-found" />
-      </div>
-      <div className="container-btn-no-found">
-        <Link to="/" className="btn-back-home">
-          Regresar al inicio
-        </Link>
+      <div className="container-img-btn">
+        <div className="container-img-no-found">
+          <img className="no-found-img" src={noFound} alt="Not-found" />
+        </div>
+        <div className="container-btn-no-found">
+          <Link to="/" className="btn-back-home">
+            Regresar al inicio
+          </Link>
+        </div>
       </div>
     </div>
   );

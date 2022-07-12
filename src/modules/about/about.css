@@ -110,14 +110,20 @@
 
 .btn-download-cv{
     width           : 220px;
-    height          : 50px;
-    border          : none;
-    background-color: transparent;
-    border          : 1px solid rgba(255, 255, 255, 0.5);
+    height          : 60px;
+    background      : transparent;
+    color           : rgba(255, 255, 255, 0.5);
+    border          : 2px solid rgba(255, 255, 255, 0.5);
+    padding         : 16px 20px;
+    border-radius   : 3px; 
+    position        : relative;
+    z-index         : 1;
+    overflow        : hidden;
+    display         : inline-block;
     text-transform  : uppercase;
     font-family     : var(--font_family);
     font-size       : var(--text_size);
-    color           : rgba(255, 255, 255, 0.5);
+    cursor          : pointer;
 }
 
 @keyframes fadein {
@@ -131,10 +137,75 @@
 }
 
 @media (min-width:1024px){
+
     .container-about{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
+        display         : flex;
+        flex-direction  : row;
+        justify-content : center;
+        align-items     : center;
+        margin          : 0;
     }
+
+    .container-title-about{
+        width           : 32%;
+        display         : flex;
+        flex-direction  : column;
+        align-items     : center;
+        margin-left     : 40px;
+    }
+
+    .title-about{
+        font-size   : 60px;
+        padding-left: 85px;
+    }
+
+    .line-decoration-about{
+        width       : 400px;
+        right       : -300px;
+        transform   : rotate(90deg);
+        animation   : none;
+    }
+
+    .phrase-about{
+        padding : 5px 160px 5px 0px; 
+        width   : 100%;
+    }
+
+    .author-phrase{
+        padding-left: 170px;
+    }
+
+    .container-text-btn{
+        width           : 68% ;
+    }
+
+    .text-about{
+        letter-spacing  : 0;
+        padding         : 0;
+    }
+
+    .btn-download-cv{
+        color: white;
+    }
+
+    .btn-download-cv::after {
+        content         : "";
+        background      : rgba(255, 255, 255, 0.5);
+        position        : absolute;
+        z-index         : -1;
+        padding         : 16px 20px;
+        display         : block;
+        left            : -20%;
+        right           : -20%;
+        top             : 0;
+        bottom          : 0;
+        transform       : skewX(45deg) scale(0, 1);
+        transition      : all 0.3s ease;
+    }
+
+    .btn-download-cv:hover::after {
+        transition  : all 0.3s ease-out;
+        transform   : skewX(45deg) scale(1, 1);
+    }
+
 }

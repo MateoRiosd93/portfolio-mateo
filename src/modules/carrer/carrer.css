@@ -81,3 +81,48 @@
     from { opacity: 0; }
     to   { opacity: 0.4; }
 }
+
+
+@media (min-width:1024px){
+    
+    .container-carrer{
+        display         : flex;
+        flex-direction  : row;
+        justify-content : center;
+        align-items     : center;
+    }
+
+    .container-title-carrer{
+        padding-top     : 80px;
+        padding-left    : 140px;
+        width           : 32%;
+        display         : flex;
+        flex-direction  : column;
+        margin          : 0;
+    }
+
+    .title-carrer{
+        font-size: 60px;
+    }
+
+    .line-decoration-carrer{
+        width       : 400px;
+        right       : -300px;
+        transform   : rotate(90deg);
+        animation   : none;
+    }
+
+    .phrase-carrer{
+        padding: 5px 0px;
+    }
+
+    .container-text-carrer{
+        width           : 68%;
+        padding-right   : 90px;
+    }
+
+    .text-carrer{
+        letter-spacing: 0px;
+    }
+
+}

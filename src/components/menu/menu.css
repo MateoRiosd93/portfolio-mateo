@@ -95,7 +95,8 @@
     }
 
     .item-nav{
-        margin: 0px 25px;
+        margin: 0px 10px;
         cursor: pointer;
+        padding: 5px 30px;
     }
 }
