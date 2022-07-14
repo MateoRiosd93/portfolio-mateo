@@ -19,7 +19,7 @@
 
 .title-carrer{
     font-family     : var(--font_family);
-    font-size       : var(--profesion_size);
+    font-size       : var(--name_size);
     font-weight     : var(--profesion_weight);
     color           : white;
     position        : relative;
@@ -45,7 +45,7 @@
 
 .phrase-carrer{
     font-family : var(--font_family);
-    font-size   : var(--phrase_size);
+    font-size   : 14px;
     font-weight : var(--phrase_weight);
     font-style  : italic;
     text-align  : center;
@@ -64,8 +64,8 @@
 
 .text-carrer{
     font-family     : var(--font_family);
-    font-size       : var(--text_size);
-    font-weight     : 300;
+    font-size       : 18px;
+    font-weight     : 400;
     text-align      : justify;
     letter-spacing  : -0.8px;
     color           : white;

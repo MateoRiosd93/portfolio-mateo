@@ -45,7 +45,7 @@
 
 .phrase-no-found{
     font-family : var(--font_family);
-    font-size   : var(--phrase_size);
+    font-size   : 14px;
     font-weight : var(--phrase_weight);
     font-style  : italic;
     text-align  : center;

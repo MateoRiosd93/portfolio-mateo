@@ -23,16 +23,25 @@ const About = () => {
       <div className="container-text-btn">
         <div className="container-text-about">
           <p className="text-about">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ad
-            fugit quos corporis animi soluta neque nam voluptatum quibusdam,
-            eaque voluptas nemo similique temporibus quaerat assumenda iusto a
-            quam ratione.
+            Hola, soy Mateo Rios Diaz ingeniero informatico graduado en el 2020
+            en el Politecnico Colombiano Jaime Isaza Cadavid, actualmente me
+            desempe;o como desarrollador fullStack en IAS SOTWARE, tengo 3 años
+            de experiencia en el mundo laboral.
           </p>
           <p className="text-about">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-            magnam voluptas nisi libero, rerum fugit dolorum. Suscipit deserunt,
-            quidem temporibus molestias neque mollitia, officiis repellendus
-            sint accusantium ut exercitationem eveniet.
+            Antes de empezar mi vida laboral estuve en diferentes Bootcamps
+            relacionados con React - Javascript - HTML - CSS, patrocinados por
+            el Politecnico y por Ruta N, los cuales me ayudaron demasiado para
+            tener unas buenas bases y fuera mas facil adaptarme a la vida
+            laboral.
+          </p>
+          <p className="text-about">
+            Soy una persona a la cual le gusta mucho aprender y estar
+            constantmente nutriendose de noticias de desarrollo web, que nos
+            permitan ser cada dia mejor en mi rol, he tenido la oportunidad de
+            trabajar en diferentes proyectos que me han forjado en diferentes
+            aspectos, tanto personales como profesionales, me encanta trabajar
+            en equipo, aprender de mis compañeros y que ellos aprendan de mi.
           </p>
         </div>
         <div className="container-btn-cv">

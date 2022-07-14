@@ -19,7 +19,7 @@
 
 .title-about{
     font-family     : var(--font_family);
-    font-size       : var(--profesion_size);
+    font-size       : var(--name_size);
     font-weight     : var(--profesion_weight);
     color           : white;
     position        : relative;
@@ -45,7 +45,7 @@
 
 .phrase-about{
     font-family : var(--font_family);
-    font-size   : var(--phrase_size);
+    font-size   : 14px;
     font-weight : var(--phrase_weight);
     font-style  : italic;
     text-align  : center;
@@ -55,7 +55,7 @@
 
 .author-phrase{
     font-family : var(--font_family);
-    font-size   : 13px;
+    font-size   : 14px;
     font-weight : bold;
     font-style  : italic;
     color       : white;
@@ -72,12 +72,12 @@
 
 .text-about{
     font-family     : var(--font_family);
-    font-size       : var(--text_size);
+    font-size       : 16px;
     font-weight     : 300;
     text-align      : justify;
-    letter-spacing  : -0.8px;
+    letter-spacing  : .5px; 
     color           : white;
-    margin          : 10px 0px; 
+    margin          : 8px 0px; 
 }
 
 .container-button{
